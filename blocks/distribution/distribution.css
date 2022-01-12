@@ -1,0 +1,18 @@
+.distribution {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 26px;
+  padding: 60px 8% 60px 8%;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .distribution {
+    grid-template-columns: 1fr;
+    padding: 40px 8% 40px 8%;
+  }
+}
+

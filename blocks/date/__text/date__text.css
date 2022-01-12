@@ -1,0 +1,29 @@
+.date__text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #E60094;
+  margin: 0;
+}
+
+/**
+@media screen and (max-width: 1279px) {
+  .places {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    width: calc(100% - 2*24px);
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: 100%;
+    margin-bottom: 66px;
+  }
+}

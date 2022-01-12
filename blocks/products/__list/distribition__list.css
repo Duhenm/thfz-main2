@@ -1,0 +1,5 @@
+.products__list {
+list-style: none;
+grid-template-rows: repeat(8, 1fr);
+padding: 0;
+}

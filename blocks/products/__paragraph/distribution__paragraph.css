@@ -1,0 +1,22 @@
+.distribution__paragraph {
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 26px;
+  color: #626262;
+  max-width: 100%;
+  margin-bottom: 0 0 30px 0;
+}
+
+/*
+@media screen and (max-width: 1279px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+  }
+}
+

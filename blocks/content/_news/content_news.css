@@ -1,0 +1,26 @@
+.content_news {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .content_news {
+        flex-direction: column;
+        justify-content: stretch;
+    }
+}
+/*
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 0;
+    }
+}

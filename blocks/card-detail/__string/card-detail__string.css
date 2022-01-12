@@ -1,0 +1,11 @@
+.card-detail__string {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+@media screen and (max-width: 1123px) {
+  .card-detail__string {
+    flex-direction: column;
+  }
+}

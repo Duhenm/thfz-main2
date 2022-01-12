@@ -1,0 +1,14 @@
+.spoiler__item {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/*
+@media screen and (max-width: 767px) {
+  .lead__title {
+    margin: 0 auto 16px auto;
+    font-size: 40px;
+    line-height: 44px;
+    max-width: 288px;
+  }
+}

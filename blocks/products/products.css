@@ -1,0 +1,18 @@
+.products {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 26px;
+  padding: 70px 8% 70px 8%;;
+  box-sizing: border-box;
+  background-color: white;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
+

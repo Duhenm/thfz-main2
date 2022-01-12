@@ -1,0 +1,30 @@
+.inner-news__title {
+  margin: 0 0 28px 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 156%;
+  color: #000000;
+  max-width: 800px;
+}
+
+/*
+@media screen and (max-width: 1279px) {
+  .intro {
+    max-width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    max-width: calc(100% - 2*24px);
+    margin: 88px auto 88px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    margin: 64px auto 64px auto;
+    max-width: calc(100% - 2*16px);
+  }
+}
+

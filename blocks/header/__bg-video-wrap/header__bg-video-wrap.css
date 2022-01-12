@@ -1,0 +1,24 @@
+.header__bg-video-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 760px;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+  object-position: top;
+  height: 92%;
+  background: url(/images/background-image_2.jpg) no-repeat center center/cover;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width: 1279px) {
+  .header__bg-video-wrap {
+    display: none;
+  }
+}
+
+
+

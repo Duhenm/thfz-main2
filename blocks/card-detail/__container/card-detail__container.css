@@ -1,0 +1,14 @@
+.card-detail__container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ border-bottom: 1px dotted #BBC2E9;
+}
+
+@media screen and (max-width: 1506px) {
+  .card-detail__container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+  }
+}

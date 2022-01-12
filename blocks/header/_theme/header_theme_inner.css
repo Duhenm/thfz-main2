@@ -1,0 +1,49 @@
+.header_theme_inner {
+  padding: 10px 8% 0 8%;
+
+  background-size: cover;
+  background-position: top;
+  background-color: rgb(236, 236, 236);
+}
+
+@media screen and (max-width: 1599px) {
+  .header {
+    
+  }
+}
+
+@media screen and (max-width: 1439px) {
+  .header {
+    
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .header {
+    margin-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  
+  
+}
+
+@media screen and (max-width: 767px) {
+  
+
+}
+/*
+@media screen and (max-width: 1023px) {
+  .header {
+    width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    width: calc(100% - 16px*2);
+    margin: 16px auto 48px auto;
+  }
+}
+

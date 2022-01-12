@@ -1,0 +1,19 @@
+.footer {
+  grid-column: footer;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 8%;
+  background-color: #230662;
+  margin-top: 0%;
+  
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,23 @@
+.header__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 760px;
+  width: 100%;
+  z-index: -2;
+  object-fit: cover;
+  object-position: top;
+  height: 92%
+}
+
+@media screen and (max-width: 767px) {
+  .header__image {
+    min-height: 600px;
+    min-width: 100%;
+    z-index: -2;
+    object-fit: cover;
+    object-position: 90% 10%;
+  }
+}
+

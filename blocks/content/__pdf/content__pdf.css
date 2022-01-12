@@ -1,0 +1,17 @@
+.content__pdf {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 1023px) {
+  .content__pdf {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .content__pdf {
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+}

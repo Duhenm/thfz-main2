@@ -1,0 +1,8 @@
+.card-detail__icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    object-position: center;
+    opacity: 0;
+    transition: opacity .2s ease-in;
+}

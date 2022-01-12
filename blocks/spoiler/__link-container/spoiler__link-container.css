@@ -1,0 +1,17 @@
+.spoiler__link-container {
+  padding: 0px;
+  margin-bottom: 20px;
+  align-items: flex-start;
+}
+
+.spoiler__link-container:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 400px) {
+  .spoiler__link-container {
+    align-items: center;
+  }
+}
+
+

@@ -1,0 +1,17 @@
+.warranty__item_position_bottom-center {
+  border: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .warranty__item_position_bottom-center {
+    border-left: none;
+    border-right: 1px dotted #E0E0E0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .warranty__item_position_bottom-center {
+    border-bottom: 1px dotted #E0E0E0;
+    border-right: none;
+  }
+}

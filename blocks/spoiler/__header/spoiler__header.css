@@ -1,0 +1,26 @@
+.spoiler__header {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ECEEF5;
+  border: 1px solid #ECECEC;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color .3s ease-in;
+}
+
+.spoiler__header:hover {
+  background-color: #cdcfd6;
+}
+
+@media screen and (max-width: 767px) {
+  .spoiler__header {
+    padding: 10px 15px;
+  }
+}
+
+

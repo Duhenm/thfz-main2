@@ -1,0 +1,14 @@
+.button__icon_text-button {
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    transition: fill 0.1s ease-in;
+    fill: #E60094;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.button:hover .button__icon_text-button {
+    fill: #ffffff;
+    stroke: none;
+}

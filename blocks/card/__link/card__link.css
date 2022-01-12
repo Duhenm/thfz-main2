@@ -1,0 +1,35 @@
+.card__link {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  justify-self: stretch;
+  padding: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.card__link:hover .card__image {
+  transform: scale(1.2);
+}
+
+.card__link:hover .card__title {
+  color: #4012A6;
+}
+
+.card__link:hover .card__button {
+  background-color: #4012A6;
+  border: none;
+}
+
+.card__link:hover .card__button-icon {
+  fill: #ffffff;
+  stroke: none;
+}

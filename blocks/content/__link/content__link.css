@@ -1,0 +1,9 @@
+.content__link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #E60094;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

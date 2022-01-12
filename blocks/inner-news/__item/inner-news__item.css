@@ -1,0 +1,23 @@
+.inner-news__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-bottom: 1px solid #E2E4E9;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+
+.inner-news__item:last-of-type {
+  border-bottom: none;
+}
+
+
+@media screen and (max-width: 800px) {
+  .inner-news__item {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,14 @@
+.content__card-text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #181818;
+  margin:0 60px 0 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .content__card-text {
+    margin:0 0 20px 0;
+    text-align: center;
+  }
+}

@@ -1,0 +1,11 @@
+.card-detail__image {
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+  margin: 0;
+  box-sizing: border-box;
+  transition: transform .2s ease-in;
+  justify-self: stretch;
+  image-rendering: crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+}

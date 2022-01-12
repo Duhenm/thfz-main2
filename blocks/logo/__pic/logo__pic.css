@@ -1,0 +1,22 @@
+.logo__pic {
+  width: 84px;
+  height: 71px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+@media screen and (max-width: 1279px) {
+  .logo__pic {
+    width: 46px;
+    height: 39px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+}
+/*
+@media screen and (max-width: 767px) {
+  .footer__links {
+    flex-direction: column;
+    width: calc(100% - 16px*2);
+  }
+}

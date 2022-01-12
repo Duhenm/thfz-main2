@@ -1,0 +1,13 @@
+.spoiler__icon {
+  margin: 0;
+  transform: rotate(0deg);
+  transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 767px) {
+  .spoiler__icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+

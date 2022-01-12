@@ -1,0 +1,6 @@
+.content__divider {
+  margin: 18px auto 18px auto;
+  padding: 0;
+  border-top: 1px dotted #BBC2E9;
+  height: 0;
+}

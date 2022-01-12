@@ -1,0 +1,61 @@
+.card-detail__image-container {
+  overflow: hidden;
+  position: relative;
+  max-width: 430px;
+  max-height: 430px;
+  border-radius: 8px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+@media screen and (max-width: 1712px) {
+  .card-detail__image-container {
+    max-height: 400px;
+  }
+}
+
+@media screen and (max-width: 1506px) {
+  .card-detail__image-container {
+    width: 100%;
+    max-height: 700px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card-detail__image-container {
+    width: 100%;
+    max-height: 400px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card-detail__image-container {
+    width: 100%;
+    max-height: 260px;
+    margin-right: 0;
+  }
+}
+
+.card-detail__image-container:hover .card-detail__image { 
+  transform: scale(1.2);
+} 
+
+.card-detail__image-container:hover .card-detail__dark-layer { 
+  opacity: 0;
+} 
+
+.card-detail____image-container:focus { 
+  outline: none; 
+} 
+
+.card-detail____image-container:active { 
+  outline: none; 
+} 

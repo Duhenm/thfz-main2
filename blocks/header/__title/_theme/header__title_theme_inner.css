@@ -1,0 +1,21 @@
+.header__title_theme_inner {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #4012A6;
+  margin: 120px 0 40px 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .header__title_theme_inner {
+    margin: 100px 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__title {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 30px 0 20px 0;
+  }
+}

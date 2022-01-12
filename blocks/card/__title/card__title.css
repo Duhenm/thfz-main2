@@ -1,0 +1,13 @@
+.card__title {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0;
+  justify-self: stretch;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+  transition: color .3s ease-in;
+  color: black;
+}

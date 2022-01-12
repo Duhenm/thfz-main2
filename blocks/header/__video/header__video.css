@@ -1,0 +1,21 @@
+.header__video {
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 767px) {
+  .header__video {
+    min-height: 600px;
+    min-width: 100%;
+    z-index: -2;
+    object-fit: cover;
+    object-position: top;
+  }
+}
+

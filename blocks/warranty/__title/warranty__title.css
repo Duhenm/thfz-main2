@@ -1,0 +1,17 @@
+.warranty__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #000000;
+  max-width: 450px;
+  margin: 0 0 20px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .warranty__title {
+    font-size: 28px;
+    line-height: 36px;
+    margin: 0 0 10px 0;
+  }
+}

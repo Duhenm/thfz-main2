@@ -1,0 +1,12 @@
+.spoiler__vacancy-text {
+  font-weight: 400;
+  margin-right: 10px;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+
+

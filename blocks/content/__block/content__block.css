@@ -1,0 +1,7 @@
+.content__block {
+  padding: 0 0 40px 0;
+}
+
+.content__block:last-of-type {
+  padding: 0 0 0 0;
+}

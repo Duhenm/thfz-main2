@@ -1,0 +1,18 @@
+.lead {
+  width: 100%;
+  margin: 0 auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+  padding: 70px 8% 100px 8%;;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    grid-template-columns: 1fr;
+    padding: 40px 8% 40px 8%;;
+  }
+}
+

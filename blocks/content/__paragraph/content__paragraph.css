@@ -1,0 +1,18 @@
+.content__paragraph {
+  max-width: 96%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #2c2c2c;
+  margin:0 0 24px 0;
+}
+
+.content__paragraph:last-of-type {
+  margin:0 0 0 0;
+}
+
+@media screen and (max-width: 1440px) {
+  .content__paragraph {
+    max-width: 100%;
+  }
+}

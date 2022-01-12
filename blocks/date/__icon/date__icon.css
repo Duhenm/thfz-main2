@@ -1,0 +1,23 @@
+.date__icon {
+ margin-right: 13px;
+}
+/**
+@media screen and (max-width: 1279px) {
+  .places {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    width: calc(100% - 2*24px);
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    width: 100%;
+    margin-bottom: 66px;
+  }
+}

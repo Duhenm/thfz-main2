@@ -1,0 +1,15 @@
+.card-detail__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+  margin: 0 0 40px 0;
+}
+
+@media screen and (max-width: 900px) {
+  .card-detail__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

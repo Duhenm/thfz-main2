@@ -1,0 +1,27 @@
+.spoiler__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 0 0 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #E60094;
+}
+
+@media screen and (max-width: 767px) {
+  .spoiler__link {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .spoiler__link {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
+

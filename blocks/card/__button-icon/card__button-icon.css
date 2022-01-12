@@ -1,0 +1,9 @@
+.card__button-icon {
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+    transition: fill 0.1s ease-in;
+}
+
+
+

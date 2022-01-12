@@ -1,0 +1,10 @@
+.warranty__item_position_top-left {
+  border-right: 1px dotted #E0E0E0;
+  border-bottom: 1px dotted #E0E0E0;
+}
+
+@media screen and (max-width: 767px) {
+  .warranty__item_position_top-left {
+    border-right: none;
+  }
+}

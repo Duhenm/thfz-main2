@@ -1,0 +1,63 @@
+.button_type_send {
+  padding-left: 30px;
+  padding-right: 20px;
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border: none;
+  background-color: #E60094;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color:#ffffff;
+  cursor: pointer;
+  width: fit-content;
+}
+
+@media screen and (max-width: 900px) {
+    .button_type_send {
+      font-size: 11px;
+      line-height: 16px;
+    }
+  }
+
+/*
+@media screen and (max-width: 1279px) {
+    .place {
+        grid-template-columns: 440px 1fr;
+        gap: 48px 32px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place {
+        grid-template-columns: 340px 1fr;
+        gap: 48px 28px;
+        margin-bottom: 73px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        margin-bottom: 50px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 0;
+    }
+}

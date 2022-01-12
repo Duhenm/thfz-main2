@@ -1,0 +1,26 @@
+.logo_place_footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo_place_footer:hover {
+  opacity: 0.7;
+}
+
+/*
+@media screen and (max-width: 1023px) {
+  .footer {
+    width: calc(100% - 24px*2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    width: calc(100% - 16px*2);
+  }
+}

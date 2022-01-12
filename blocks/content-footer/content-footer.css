@@ -1,0 +1,13 @@
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 1279px) {
+  .content-footer {
+    width: 100vw;
+  }
+}
+

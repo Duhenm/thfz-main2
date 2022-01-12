@@ -1,0 +1,18 @@
+.menu__hamburger {
+    display: none;
+}
+
+@media screen and (max-width: 1279px) {
+    .menu__hamburger {
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: #230662;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        }
+  }
+

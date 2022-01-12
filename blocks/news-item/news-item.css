@@ -1,0 +1,12 @@
+.news-item {
+  width: 70%;
+  align-self: stretch;
+}
+
+@media screen and (max-width: 1023px) {
+    .news-item {
+        width: 100%;
+        align-self: stretch;
+      }
+}
+

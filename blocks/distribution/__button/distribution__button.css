@@ -1,0 +1,23 @@
+.distribution__button {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #321c81;
+  width: 100%;
+  margin-bottom: 0 0 24px 0;
+}
+/*
+@media screen and (max-width: 1279px) {
+  .lead__subtitle {
+    margin: 0 auto 56px auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+    margin: 0 auto 40px auto;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 288px;
+  }
+}

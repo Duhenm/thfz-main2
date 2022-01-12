@@ -1,0 +1,17 @@
+.spoiler__icon_opened {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in-out;
+}
+/*
+@media screen and (max-width: 1279px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    width: 100%;
+  }
+}
+

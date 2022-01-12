@@ -1,0 +1,23 @@
+@keyframes sweep {
+  0%    {opacity: 0;}
+  100%  {opacity: 1;}
+}
+
+.spoiler__content_opened {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  list-style: none;
+  animation: sweep .5s ease-in-out forwards;
+}
+
+@media screen and (max-width: 400px) {
+  .spoiler__content_opened {
+    align-items: center;
+  }
+}
